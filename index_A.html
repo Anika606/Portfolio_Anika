@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Anika Ahmed Portfolio</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- DaisyUI -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <script
+    src="https://kit.fontawesome.com/d7b7563d24.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <style>
+
+    *{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:black;
+      color:white;
+      overflow-x:hidden;
+    }
+
+    .glass{
+      background:rgba(255,255,255,0.04);
+      backdrop-filter:blur(12px);
+    }
+
+    .cyan-glow{
+      box-shadow:0 0 25px rgba(34,211,238,0.25);
+    }
+
+    .purple-bg{
+      background:linear-gradient(to right,#0a0a0a,#111827,#0a0a0a);
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<div class="navbar px-20 py-6 bg-black/80 backdrop-blur-xl border-b border-cyan-400/20 sticky top-0 z-50">
+
+  <div class="flex-1">
+
+    <a class="text-3xl font-black">
+      A<span class="text-cyan-400">.</span>
+    </a>
+
+  </div>
+
+  <div class="flex-none">
+
+    <ul class="menu menu-horizontal px-1 text-sm font-medium gap-5">
+
+      <li><a class="hover:text-cyan-400 duration-300" href="#">Home</a></li>
+
+      <li><a class="hover:text-cyan-400 duration-300" href="#abouts">
+        About Me
+      </a></li>
+
+      <li><a class="hover:text-cyan-400 duration-300" href="#services">
+        Services
+      </a></li>
+
+      <li><a class="hover:text-cyan-400 duration-300" href="#projects">
+        Projects
+      </a></li>
+
+      <li><a class="hover:text-cyan-400 duration-300" href="#resumes">
+        Resume
+      </a></li>
+
+      <li><a class="hover:text-cyan-400 duration-300" href="#contacts">
+        Contact
+      </a></li>
+
+    </ul>
+
+    <button class="btn bg-cyan-400 hover:bg-cyan-500 border-none text-black ml-5 rounded-xl px-6 hover:scale-105 duration-300 cyan-glow">
+
+      Hire Me
+
+    </button>
+
+  </div>
+
+</div>
+
+<!-- ================= HERO ================= -->
+
+<section class="px-20 pt-20 pb-24 bg-gradient-to-br from-black via-[#041414] to-black relative overflow-hidden">
+
+  <div class="absolute top-0 left-0 w-72 h-72 bg-cyan-400/20 blur-3xl rounded-full animate-pulse"></div>
+
+  <div class="grid grid-cols-2 items-center gap-10 relative z-10">
+
+    <!-- LEFT -->
+    <div>
+
+      <p class="text-sm mb-3 text-gray-300">
+        Hi I am
+      </p>
+
+      <h3 class="text-5xl font-semibold text-cyan-400 mb-3">
+        Anika Ahmed
+      </h3>
+
+      <h1 class="text-6xl font-extrabold leading-tight mb-6">
+
+        Computer | Science <br />
+        Engineer
+
+      </h1>
+
+      <p class="text-gray-300 leading-8 mb-8 w-[80%]">
+
+        I am a passionate and detail-oriented CSE engineering student with a strong interest in software development, web technologies, robotics, and problem-solving.
+
+      </p>
+
+      <a
+        href="cv.pdf"
+        download
+        class="btn bg-cyan-400 hover:bg-cyan-500 border-none text-black px-8 rounded-xl hover:scale-105 duration-300 cyan-glow"
+      >
+
+        <i class="fa-solid fa-download"></i>
+        Download CV
+
+      </a>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="flex justify-center">
+
+      <div class="relative group">
+
+        <div class="absolute -inset-1 rounded-[35px] bg-gradient-to-r from-cyan-400 via-teal-300 to-cyan-500 blur opacity-75 animate-pulse"></div>
+
+        <img
+          src="./images/faceless-business-woman-vector_844724-14846.avif"
+          class="relative w-[430px] rounded-[35px] shadow-2xl border border-cyan-400/20 hover:scale-105 duration-500"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="abouts" class="px-20 py-24 bg-[#050505]">
+
+  <div class="grid grid-cols-2 gap-16 items-center">
+
+    <div class="flex justify-center">
+
+      <div class="relative group">
+
+        <div class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-400 to-teal-300 blur opacity-70 animate-pulse"></div>
+
+        <img
+          src="./images/programmer-people-working-laptops-or-smartphones-with-ai-artificial-intelligence-software-engineer-coding-on-laptop-computers-with-technology-icons-and-binary-code-big-data-ai-bot-digital-machine-photo.jpg"
+          class="relative w-[400px] rounded-3xl h-[350px] hover:scale-105 duration-500"
+        />
+
+      </div>
+
+    </div>
+
+    <div>
+
+      <h2 class="text-5xl font-bold mb-5">
+        About Me
+      </h2>
+
+      <p class="text-gray-300 leading-8 mb-10">
+
+        Passionate about delivering innovative and user-friendly designs that enhance brand identity and digital experience.
+
+      </p>
+
+      <div class="space-y-6">
+
+        <div>
+
+          <div class="flex justify-between mb-2">
+            <span>Codeblocks</span>
+            <span>95%</span>
+          </div>
+
+          <progress class="progress progress-info w-full" value="95" max="100"></progress>
+
+        </div>
+
+        <div>
+
+          <div class="flex justify-between mb-2">
+            <span>Adobe Illustrator</span>
+            <span>60%</span>
+          </div>
+
+          <progress class="progress progress-info w-full" value="60" max="100"></progress>
+
+        </div>
+
+        <div>
+
+          <div class="flex justify-between mb-2">
+            <span>Figma</span>
+            <span>70%</span>
+          </div>
+
+          <progress class="progress progress-info w-full" value="70" max="100"></progress>
+
+        </div>
+
+        <div>
+
+          <div class="flex justify-between mb-2">
+            <span>HTML & CSS</span>
+            <span>88%</span>
+          </div>
+
+          <progress class="progress progress-info w-full" value="88" max="100"></progress>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="px-20 py-24 bg-black">
+
+  <div class="text-center mb-16">
+
+    <h2 class="text-5xl font-bold mb-4">
+      Services
+    </h2>
+
+    <p class="text-gray-400 w-[60%] mx-auto leading-8">
+
+      Providing cutting-edge IT solutions and modern digital experiences.
+
+    </p>
+
+  </div>
+
+  <div class="grid grid-cols-4 gap-8">
+
+    <div class="card bg-[#071414] border border-cyan-400/20 shadow-2xl hover:-translate-y-3 hover:border-cyan-400 duration-500">
+
+      <div class="card-body">
+
+        <div class="text-5xl text-cyan-400 mb-4">
+          🎨
+        </div>
+
+        <h2 class="card-title text-2xl">
+          Canva Design
+        </h2>
+
+        <p class="text-gray-400">
+          Create stunning posters, banners, and social media designs.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="card bg-[#071414] border border-cyan-400/20 shadow-2xl hover:-translate-y-3 hover:border-cyan-400 duration-500">
+
+      <div class="card-body">
+
+        <div class="text-5xl text-cyan-400 mb-4">
+          📱
+        </div>
+
+        <h2 class="card-title text-2xl">
+          Social Media
+        </h2>
+
+        <p class="text-gray-400">
+          Creating impactful visuals and engaging content.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="card bg-[#071414] border border-cyan-400/20 shadow-2xl hover:-translate-y-3 hover:border-cyan-400 duration-500">
+
+      <div class="card-body">
+
+        <div class="text-5xl text-cyan-400 mb-4">
+          📊
+        </div>
+
+        <h2 class="card-title text-2xl">
+          Digital Marketing
+        </h2>
+
+        <p class="text-gray-400">
+          Boosting online presence with creative strategies.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="card bg-[#071414] border border-cyan-400/20 shadow-2xl hover:-translate-y-3 hover:border-cyan-400 duration-500">
+
+      <div class="card-body">
+
+        <div class="text-5xl text-cyan-400 mb-4">
+          🖥️
+        </div>
+
+        <h2 class="card-title text-2xl">
+          Web Design
+        </h2>
+
+        <p class="text-gray-400">
+          Responsive and modern websites with clean UI.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="px-20 py-24 bg-[#050505]">
+
+  <div class="text-center mb-16">
+
+    <h2 class="text-5xl font-bold mb-4">
+      My Projects
+    </h2>
+
+  </div>
+
+  <div class="grid grid-cols-3 gap-10">
+
+    <div class="group">
+
+      <img
+        src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200"
+        class="rounded-2xl mb-4 h-[300px] w-full object-cover hover:scale-105 duration-500 border border-cyan-400/20"
+      />
+
+      <p class="text-cyan-400 text-sm">
+        E-commerce Website
+      </p>
+
+      <h3 class="text-2xl font-semibold">
+        HTML, CSS, Django
+      </h3>
+
+    </div>
+
+    <div class="group">
+
+      <img
+        src="./images/Screenshot 2026-01-16 185044.png"
+        class="rounded-2xl mb-4 h-[300px] w-full object-cover hover:scale-105 duration-500 border border-cyan-400/20"
+      />
+
+      <p class="text-cyan-400 text-sm">
+        Smart Health Assistant
+      </p>
+
+      <h3 class="text-2xl font-semibold">
+        Algorithm Project
+      </h3>
+
+    </div>
+
+    <div class="group">
+
+      <img
+        src="./images/hqdefault.jpg"
+        class="rounded-2xl mb-4 h-[300px] w-full object-cover hover:scale-105 duration-500 border border-cyan-400/20"
+      />
+
+      <p class="text-cyan-400 text-sm">
+        Car Slot Indicator
+      </p>
+
+      <h3 class="text-2xl font-semibold">
+        Digital Logic Design
+      </h3>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= PROJECT SHOWCASE VIDEO ================= -->
+
+<section class="px-20 py-24 purple-bg">
+
+  <div class="text-center mb-14">
+
+    <h2 class="text-5xl font-bold mb-4 text-white">
+      Project Showcase
+    </h2>
+
+    <p class="text-gray-400 w-[60%] mx-auto">
+      A quick overview of my projects, coding skills, and creative work in web development and robotics.
+    </p>
+
+  </div>
+
+  <div class="flex justify-center">
+
+    <div class="w-[900px] h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-cyan-400/20">
+
+      <video
+        class="w-full h-full object-cover"
+        controls
+        autoplay
+        muted
+        loop
+      >
+
+        <source src="./vedios/myvedio.mp4.mp4" type="video/mp4">
+
+        Your browser does not support the video tag.
+
+      </video>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= TESTIMONIAL ================= -->
+
+<section class="px-20 py-40 bg-[#050505]">
+
+  <div class="text-center mb-16">
+
+    <h2 class="text-5xl font-bold mb-4">
+      Testimonials
+    </h2>
+
+    <p class="text-gray-400">
+      Real Experiences, Genuine Feedback
+    </p>
+
+  </div>
+
+  <div class="flex justify-center">
+
+    <div class="card w-[1000px] glass border border-cyan-400/20 shadow-2xl">
+
+      <div class="card-body flex-row items-center gap-8">
+
+        <img
+          src="./images/hardy.png"
+          class="w-32 h-32 rounded-full object-cover border-4 border-cyan-400"
+        />
+
+        <div>
+
+          <p class="leading-8 text-gray-300">
+            The team was highly professional, responsive, and knowledgeable.
+            They helped us streamline our business operations with a custom
+            software solution that exceeded our expectations.
+          </p>
+
+          <h3 class="text-2xl font-bold mt-5">
+            Jim Noe
+          </h3>
+
+          <p class="text-cyan-400">
+            CEO
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section class="px-20 py-24 bg-black">
+
+  <div class="text-center mb-16">
+
+    <h2 class="text-5xl font-bold text-white mb-4">
+      My Skills
+    </h2>
+
+    <p class="text-gray-400 max-w-2xl mx-auto">
+      Technologies and tools I use to build creative, responsive, and efficient digital solutions.
+    </p>
+
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+    <div class="card bg-[#071414] border border-cyan-400/20 shadow-xl hover:-translate-y-2 duration-300">
+
+      <div class="card-body">
+
+        <div class="text-5xl mb-4 text-cyan-400">
+          💻
+        </div>
+
+        <h3 class="card-title text-white text-2xl">
+          C++
+        </h3>
+
+        <p class="text-gray-400 leading-7">
+          Solving programming problems and building efficient applications using object-oriented programming and DSA concepts.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="card bg-[#071414] border border-cyan-400/20 shadow-xl hover:-translate-y-2 duration-300">
+
+      <div class="card-body">
+
+        <div class="text-5xl mb-4 text-cyan-400">
+          🌐
+        </div>
+
+        <h3 class="card-title text-white text-2xl">
+          HTML & CSS
+        </h3>
+
+        <p class="text-gray-400 leading-7">
+          Designing responsive and visually appealing websites with modern layouts and clean UI design.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="card bg-[#071414] border border-cyan-400/20 shadow-xl hover:-translate-y-2 duration-300">
+
+      <div class="card-body">
+
+        <div class="text-5xl mb-4 text-cyan-400">
+          ⚡
+        </div>
+
+        <h3 class="card-title text-white text-2xl">
+          Vanilla JavaScript
+        </h3>
+
+        <p class="text-gray-400 leading-7">
+          Creating dynamic and interactive web experiences using JavaScript and DOM manipulation techniques.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="card bg-[#071414] border border-cyan-400/20 shadow-xl hover:-translate-y-2 duration-300">
+
+      <div class="card-body">
+
+        <div class="text-5xl mb-4 text-cyan-400">
+          🎨
+        </div>
+
+        <h3 class="card-title text-white text-2xl">
+          Canva
+        </h3>
+
+        <p class="text-gray-400 leading-7">
+          Designing creative presentations, posters, and social media content with attractive visual elements.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= RESUME ================= -->
+
+<section id="resumes" class="px-20 py-24 bg-[#050505]">
+
+  <h2 class="text-5xl font-bold text-center text-white mb-20">
+    My Resume
+  </h2>
+
+  <div class="grid grid-cols-2 gap-16">
+
+    <!-- EDUCATION -->
+    <div>
+
+      <h3 class="text-4xl font-bold text-white mb-10">
+        Education
+      </h3>
+
+      <div class="space-y-10">
+
+        <div class="bg-[#071414] p-8 rounded-3xl border border-cyan-400/20">
+
+          <h4 class="text-2xl font-bold text-white">
+            Bachelor in Computer Science
+          </h4>
+
+          <h5 class="text-cyan-400 font-semibold mt-3 mb-5">
+            International Islamic University / 2023 - Present
+          </h5>
+
+          <p class="text-gray-400 leading-8">
+            Specialized in software engineering, cloud computing, and full-stack application development.
+          </p>
+
+        </div>
+
+        <div class="bg-[#071414] p-8 rounded-3xl border border-cyan-400/20">
+
+          <h4 class="text-2xl font-bold text-white">
+            H.S.C In Science
+          </h4>
+
+          <h5 class="text-cyan-400 font-semibold mt-3 mb-5">
+            Chittagong Govt. Girls' College / 2019 - 2021
+          </h5>
+
+          <p class="text-gray-400 leading-8">
+            Focused on web technologies, UI/UX principles, and database management systems.
+          </p>
+
+        </div>
+
+        <div class="bg-[#071414] p-8 rounded-3xl border border-cyan-400/20">
+
+          <h4 class="text-2xl font-bold text-white">
+            S.S.C In Science
+          </h4>
+
+          <h5 class="text-cyan-400 font-semibold mt-3 mb-5">
+            Bangladesh Mahila Shamity Girls' High School and College / 2008 - 2019
+          </h5>
+
+          <p class="text-gray-400 leading-8">
+            Learned responsive design, branding, and modern front-end development workflows.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- EXPERIENCE -->
+
+    <div>
+
+      <h3 class="text-4xl font-bold text-white mb-10">
+        Experience
+      </h3>
+
+      <div class="space-y-10">
+
+        <div class="bg-[#071414] p-8 rounded-3xl border border-cyan-400/20">
+
+          <h4 class="text-2xl font-bold text-white">
+            Workshop
+          </h4>
+
+          <h5 class="text-cyan-400 font-semibold mt-3 mb-5">
+            Roborise: An Otto Bot Crafting Workshop - IEEE RAS IIUC
+          </h5>
+
+          <p class="text-gray-400 leading-8">
+            Participated in a hands-on robotics workshop focused on building and programming an Otto Bot.
+          </p>
+
+        </div>
+
+        <div class="bg-[#071414] p-8 rounded-3xl border border-cyan-400/20">
+
+          <h4 class="text-2xl font-bold text-white">
+            Seminar
+          </h4>
+
+          <h5 class="text-cyan-400 font-semibold mt-3 mb-5">
+            Dream. Design. Discover - IEEE CS IIUC
+          </h5>
+
+          <p class="text-gray-400 leading-8">
+            Designed user-friendly interfaces and branding solutions for startups and businesses.
+          </p>
+
+        </div>
+
+        <div class="bg-[#071414] p-8 rounded-3xl border border-cyan-400/20">
+
+          <h4 class="text-2xl font-bold text-white">
+            Olympiad
+          </h4>
+
+          <h5 class="text-cyan-400 font-semibold mt-3 mb-5">
+            Attended Math Olympiad & Line Follower Robot Competition
+          </h5>
+
+          <p class="text-gray-400 leading-8">
+            Gained experience in logical thinking, programming, and autonomous robot navigation systems.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="text-center mt-20">
+
+    <button class="btn bg-cyan-400 border-none text-black hover:bg-cyan-500 px-10 h-14 text-lg rounded-xl hover:scale-105 duration-300">
+
+      Download CV
+
+    </button>
+
+  </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contacts" class="px-20 py-24 bg-black">
+
+  <div class="grid grid-cols-2 gap-20">
+
+    <div>
+
+      <h2 class="text-5xl font-bold text-white mb-6">
+        Let's Connect
+      </h2>
+
+      <p class="text-gray-400 leading-8 mb-10">
+        Please fill out the form to contact with me.
+      </p>
+
+      <div class="flex gap-5">
+
+        <a href="#" class="btn btn-circle bg-cyan-400 border-none text-black hover:bg-cyan-500 text-xl hover:scale-110 duration-300">
+
+          <i class="fa-brands fa-facebook"></i>
+
+        </a>
+
+        <a href="#" class="btn btn-circle bg-cyan-400 border-none text-black hover:bg-cyan-500 text-xl hover:scale-110 duration-300">
+
+          <i class="fa-brands fa-instagram"></i>
+
+        </a>
+
+        <a href="#" class="btn btn-circle bg-cyan-400 border-none text-black hover:bg-cyan-500 text-xl hover:scale-110 duration-300">
+
+          <i class="fa-brands fa-twitter"></i>
+
+        </a>
+
+      </div>
+
+    </div>
+
+    <div>
+
+      <h2 class="text-5xl font-bold text-white mb-8">
+        Let's Contact Me
+      </h2>
+
+      <form class="space-y-6">
+
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="input w-full h-16 bg-[#071414] border border-cyan-400/20 text-white"
+        >
+
+        <input
+          type="email"
+          placeholder="Your Email"
+          class="input w-full h-16 bg-[#071414] border border-cyan-400/20 text-white"
+        >
+
+        <textarea
+          class="textarea w-full h-44 bg-[#071414] border border-cyan-400/20 text-white"
+          placeholder="Message"
+        ></textarea>
+
+        <button
+          class="btn bg-cyan-400 border-none text-black hover:bg-cyan-500 px-10 h-14 rounded-xl hover:scale-105 duration-300"
+        >
+
+          Submit
+
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer footer-center bg-[#050505] border-t border-cyan-400/10 p-10">
+
+  <aside>
+
+    <p class="text-3xl font-bold text-white">
+
+      A<span class="text-cyan-400">.</span>
+
+    </p>
+
+    <div class="flex gap-8 text-gray-300 mt-5">
+
+      <a class="hover:text-cyan-400 duration-300 cursor-pointer">
+        Home
+      </a>
+
+      <a class="hover:text-cyan-400 duration-300 cursor-pointer">
+        About Me
+      </a>
+
+      <a class="hover:text-cyan-400 duration-300 cursor-pointer">
+        Services
+      </a>
+
+      <a class="hover:text-cyan-400 duration-300 cursor-pointer">
+        Projects
+      </a>
+
+      <a class="hover:text-cyan-400 duration-300 cursor-pointer">
+        Contact
+      </a>
+
+    </div>
+
+    <p class="mt-8 text-gray-500">
+      © 2026 Anika Ahmed All Rights Reserved.
+    </p>
+
+  </aside>
+
+</footer>
+
+</body>
+</html>
